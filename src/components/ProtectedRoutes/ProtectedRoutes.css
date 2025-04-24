@@ -1,0 +1,10 @@
+div.loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Gilroy-Bold", sans-serif;
+
+  position: absolute;
+  inset: 0;
+}
