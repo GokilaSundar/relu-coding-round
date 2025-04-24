@@ -6,4 +6,12 @@
   gap: 30px;
 
   flex: 1 1 1px;
+  overflow: hidden;
+}
+
+.card.dummy-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
 }
