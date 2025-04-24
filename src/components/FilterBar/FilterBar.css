@@ -1,0 +1,37 @@
+.card.filter-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 15px 35px;
+}
+
+.filter-bar > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.filter-bar > input {
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-variant: normal;
+  font-size: medium;
+  font-family: "Gilroy-Medium", sans-serif;
+  flex: 1;
+}
+
+.filter-bar > input::placeholder {
+  font-style: normal;
+  font-variant: normal;
+  font-size: small;
+  font-weight: 600;
+  font-family: "Gilroy-Light", sans-serif;
+  letter-spacing: 0px;
+  color: #9a9a9e;
+}
+
+.filter-bar > div {
+  color: #303030;
+  letter-spacing: 0px;
+  font: normal normal normal 14px/16px "Gilroy-Medium";
+}
