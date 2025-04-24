@@ -1,6 +1,6 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { auth } from "../../firebase/config";
 
@@ -60,6 +60,8 @@ export const Login = () => {
         <button disabled={loading} type="submit" className="custom-button">
           Login
         </button>
+
+        <Link to="/register">Don't have an account? Register here</Link>
       </form>
     </div>
   );
