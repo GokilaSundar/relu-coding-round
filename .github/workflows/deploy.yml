@@ -15,6 +15,12 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
+      - name: Create .env file from secrets 📄
+        run: |
+          echo "$DOTENV" > .env
+        env:
+          DOTENV: ${{ secrets.DOTENV }}
+
       - name: Install and Build 🔧
         run: |
           npm ci
