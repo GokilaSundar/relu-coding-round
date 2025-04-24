@@ -4,6 +4,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 import { ProtectedRoutes } from "./components/ProtectedRoutes/ProtectedRoutes";
 import { Login } from "./pages/Login/Login";
+import { Logout } from "./pages/Logout/Logout";
 import { Register } from "./pages/Register/Register";
 import { Dashboard } from "./pages/Dashboard/Dashboard";
 
@@ -15,6 +16,7 @@ const App = () => {
 
       <Route element={<ProtectedRoutes />}>
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/logout" element={<Logout />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/dashboard" />} />
