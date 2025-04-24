@@ -16,6 +16,17 @@ export const Dashboard = () => {
       <Sidebar />
       <Posts />
       <Artists />
+
+      <div className="footer between">
+        <span>2022©logo name</span>
+        <span>Developed by ivan Infotech</span>
+      </div>
+      <div className="footer"></div>
+      <div className="footer around">
+        <span>Privacy</span>
+        <span>Terms of Service</span>
+        <span>Cookie Notice</span>
+      </div>
     </div>
   );
 };
