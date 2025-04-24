@@ -1,0 +1,47 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar > .image-container {
+  position: relative;
+  border-radius: 10px;
+}
+
+.avatar > .image-container.online::after {
+  content: "";
+  display: flex;
+  height: 8px;
+  width: 8px;
+  background-color: #0ec297;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+}
+
+.avatar > .image-container > img {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+}
+
+.avatar > .content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.avatar > .content > .name {
+  font: normal normal 600 20px/24px "Gilroy-Medium";
+  color: #101010;
+}
+
+.avatar > .content > .handle {
+  color: #8d8d8d;
+  font: normal normal 14px/16px "Gilroy-Medium";
+}

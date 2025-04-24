@@ -1,0 +1,80 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.card.post {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card.post > .title-container {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 30px;
+}
+
+.card.post > .title-container > .avatar {
+  flex: 1 1 1px;
+}
+
+.card.post > .title-container > svg {
+  height: 24px;
+  width: 24px;
+}
+
+.card.post > .content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  gap: 20px;
+  font: normal normal medium 14px/21px "Gilroy-Medium";
+}
+
+.card.post > .content-container > .text {
+  font: normal normal 14px/21px "Gilroy-Medium";
+}
+.card.post > .content-container > .text > a {
+  color: #ff5e8a;
+  text-decoration: none;
+}
+
+.card.post > .content-container > .image {
+  position: relative;
+}
+
+.card.post > .content-container > .image > img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+
+.card.post > .content-container > .image > svg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 22px;
+  color: #ffffff;
+}
+
+.card.post > .social-container {
+  display: flex;
+  align-content: center;
+  border-top: 2px solid #f3f3f3;
+  padding: 30px;
+  gap: 20px;
+}
+
+.card.post > .social-container > .count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font: normal normal 600 20px/24px "Gilroy-Regular";
+}
