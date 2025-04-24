@@ -14,6 +14,10 @@ const Artist = (props) => {
 export const Artists = () => {
   return (
     <div className="artists-container">
+      <div className="tabs">
+        <div className="tab active">Artists</div>
+        <div className="tab">Photographers</div>
+      </div>
       <div className="artists">
         {DummyArtists.map((item, index) => (
           <Artist key={index} item={item} />

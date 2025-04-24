@@ -1,12 +1,25 @@
 .artists-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   overflow: hidden;
 }
 
+.artists-container > .tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.artists-container > .tabs > .tab {
+  color: #8d8d8d;
+  font: normal normal 600 16px/19px "Gilroy-Regular";
+}
+
+.artists-container > .tabs > .tab.active {
+  color: #000000;
+}
+
 .artists-container > .artists {
-  gap: 10px;
   flex: 1 1 1px;
   overflow: auto;
 }
@@ -20,7 +33,7 @@
 }
 
 .artists-container > .artists > .artist:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .artists-container > .artists > .artist > img {
