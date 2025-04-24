@@ -1,0 +1,9 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 16.25vw 1fr 16.25vw; /* 260px for sidebar in XD at 1600px resolution = 16.25vw */
+  grid-template-rows: auto 1fr;
+  padding: 40px 200px 0px 200px;
+  gap: 30px;
+
+  flex: 1 1 1px;
+}

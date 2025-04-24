@@ -5,6 +5,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { ProtectedRoutes } from "./components/ProtectedRoutes/ProtectedRoutes";
 import { Login } from "./pages/Login/Login";
 import { Register } from "./pages/Register/Register";
+import { Dashboard } from "./pages/Dashboard/Dashboard";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <Route path="/register" element={<Register />} />
 
       <Route element={<ProtectedRoutes />}>
-        <Route path="/dashboard" element={<div>Dashboard</div>} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/dashboard" />} />
