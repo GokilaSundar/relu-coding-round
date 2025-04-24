@@ -1,7 +1,6 @@
 @font-face {
   font-family: "MongolianBaiti";
 
-  src: url("./assets/fonts/MongolianBaiti.eot");
   src: url("./assets/fonts/MongolianBaiti.woff") format("woff"),
     url("./assets/fonts/MongolianBaiti.woff2") format("woff2"),
     url("./assets/fonts/MongolianBaiti.ttf") format("truetype");
