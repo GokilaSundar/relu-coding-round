@@ -1,0 +1,53 @@
+.carousel {
+  width: 100%;
+  margin: auto;
+  --slide-height: 200px;
+  --slide-spacing: 1rem;
+}
+.carousel-viewport {
+  overflow: hidden;
+}
+.carousel-container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.carousel-slide-container {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 calc(50% - 4rem);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+.carousel-slide {
+  display: flex;
+  height: var(--slide-height);
+  user-select: none;
+  flex-direction: column;
+}
+
+.carousel-slide > img {
+  width: 100%;
+  object-fit: cover;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.carousel-slide > .title {
+  font: normal normal 600 13px/26px "Gilroy-Regular";
+}
+
+.carousel-slide > .price-container > .price {
+  font: normal normal 600 24px/25px "Barlow";
+}
+
+.carousel-slide > .price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-slide > .price-container > .ratings {
+  display: flex;
+  gap: 2px;
+}
