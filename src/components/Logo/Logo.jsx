@@ -1,5 +1,5 @@
 import "./Logo.css";
 
 export const Logo = () => {
-  return <div className="">Logo</div>;
+  return <div className="card logo">LOGO</div>;
 };
