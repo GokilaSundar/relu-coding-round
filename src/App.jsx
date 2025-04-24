@@ -1,10 +1,13 @@
-import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
+
+import { Navigate, Route, Routes } from "react-router-dom";
+
+import { Login } from "./pages/Login/Login";
 
 const App = () => {
   return (
     <Routes>
-      <Route path="/login" element={<div>Login</div>} />
+      <Route path="/login" element={<Login />} />
       <Route path="/register" element={<div>Register</div>} />
 
       <Route path="/dashboard" element={<div>Dashboard</div>} />
