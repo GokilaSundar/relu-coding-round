@@ -1,5 +1,9 @@
 import "./BecomeASeller.css";
 
 export const BecomeASeller = () => {
-  return <div className="">BecomeASeller</div>;
+  return (
+    <button className="card custom-button become-a-seller">
+      Become a Seller
+    </button>
+  );
 };
