@@ -1,7 +1,7 @@
-import LaraLeones from "../../assets/avatars/lara-leones.png";
-import LaraLeonesPost from "../../assets/avatars/lara-leones-post.png";
-import Thamos from "../../assets/avatars/thamos.png";
-import ThamosPost from "../../assets/avatars/thamos-post.png";
+import LaraLeones from "../../assets/avatars/lara-leones.webp";
+import LaraLeonesPost from "../../assets/avatars/lara-leones-post.webp";
+import Thamos from "../../assets/avatars/thamos.webp";
+import ThamosPost from "../../assets/avatars/thamos-post.webp";
 
 export const DummyPosts = [
   {

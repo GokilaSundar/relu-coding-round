@@ -1,13 +1,13 @@
-import Artist1 from "../../assets/artists/artist-1.png";
-import Artist2 from "../../assets/artists/artist-2.png";
-import Artist3 from "../../assets/artists/artist-3.png";
-import Artist4 from "../../assets/artists/artist-4.png";
-import Artist5 from "../../assets/artists/artist-5.png";
-import Image1 from "../../assets/artists/image-1.png";
-import Image2 from "../../assets/artists/image-2.png";
-import Image3 from "../../assets/artists/image-3.png";
-import Image4 from "../../assets/artists/image-4.png";
-import Image5 from "../../assets/artists/image-5.png";
+import Artist1 from "../../assets/artists/artist-1.webp";
+import Artist2 from "../../assets/artists/artist-2.webp";
+import Artist3 from "../../assets/artists/artist-3.webp";
+import Artist4 from "../../assets/artists/artist-4.webp";
+import Artist5 from "../../assets/artists/artist-5.webp";
+import Image1 from "../../assets/artists/image-1.webp";
+import Image2 from "../../assets/artists/image-2.webp";
+import Image3 from "../../assets/artists/image-3.webp";
+import Image4 from "../../assets/artists/image-4.webp";
+import Image5 from "../../assets/artists/image-5.webp";
 
 export const DummyArtists = [
   {

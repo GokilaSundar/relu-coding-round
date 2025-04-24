@@ -1,7 +1,7 @@
-import Image1 from "../../assets/carousel/image-1.png";
-import Image2 from "../../assets/carousel/image-2.png";
-import Image3 from "../../assets/carousel/image-3.png";
-import Image4 from "../../assets/carousel/image-4.png";
+import Image1 from "../../assets/carousel/image-1.webp";
+import Image2 from "../../assets/carousel/image-2.webp";
+import Image3 from "../../assets/carousel/image-3.webp";
+import Image4 from "../../assets/carousel/image-4.webp";
 
 export const DummyCarousel = [
   {
