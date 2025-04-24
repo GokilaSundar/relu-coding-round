@@ -35,3 +35,13 @@
   letter-spacing: 0px;
   font: normal normal normal 14px/16px "Gilroy-Medium";
 }
+
+@media screen and (max-width: 786px) {
+  .card.filter-bar {
+    padding: 5px 10px;
+  }
+
+  .filter-bar > input {
+    width: 0px;
+  }
+}

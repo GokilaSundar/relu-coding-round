@@ -4,3 +4,9 @@
   letter-spacing: 0px;
   color: #101010;
 }
+
+@media screen and (max-width: 786px) {
+  .card.logo {
+    padding: 5px 15px;
+  }
+}

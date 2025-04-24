@@ -1,3 +1,9 @@
 .become-a-seller.custom-button {
   font-family: "Gilroy-Medium", sans-serif;
 }
+
+@media screen and (max-width: 786px) {
+  .become-a-seller.custom-button {
+    padding: 10px;
+  }
+}

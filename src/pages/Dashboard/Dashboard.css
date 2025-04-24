@@ -15,3 +15,73 @@
   justify-content: center;
   font-size: 2em;
 }
+
+@media screen and (max-width: 786px) {
+  #root {
+    overflow: auto;
+  }
+
+  .dashboard-container {
+    padding: 10px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: unset;
+    gap: 15px;
+    overflow: visible;
+    flex: unset;
+  }
+
+  .card.logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .card.become-a-seller {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card.filter-bar {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .sidebar-container {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .posts-container,
+  .card.dummy-page {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    overflow: visible;
+  }
+
+  div.artists-container {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    overflow: visible;
+  }
+
+  div.artists-container > .artists {
+    flex: unset;
+  }
+
+  .footer {
+    margin-top: 0;
+  }
+
+  .footer:empty {
+    display: none;
+  }
+
+  .footer.between {
+    grid-column: 1 / -1;
+    grid-row: 7;
+  }
+
+  .footer.around {
+    grid-column: 1 / -1;
+    grid-row: 6;
+  }
+}

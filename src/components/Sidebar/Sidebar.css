@@ -22,6 +22,7 @@
   align-items: center;
   padding: 13px 35px;
   gap: 10px;
+  white-space: nowrap;
 }
 
 .card.links a {
@@ -42,4 +43,33 @@
   outline: none;
   color: #88c2bb;
   font: normal normal 600 16px/19px "Gilroy-Light";
+}
+
+@media screen and (max-width: 786px) {
+  .sidebar-container {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .card.links {
+    flex: unset;
+    flex-direction: row;
+    padding: 0 10px;
+  }
+
+  .card.links > .scroll-container {
+    display: flex;
+    overflow: auto;
+  }
+
+  .card.links a {
+    border-left: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  .card.links > button,
+  .card.links a {
+    padding: 15px 10px;
+  }
 }
