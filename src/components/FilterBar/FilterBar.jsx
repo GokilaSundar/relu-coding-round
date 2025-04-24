@@ -1,7 +1,7 @@
 import "./FilterBar.css";
 
 import SearchIcon from "../../assets/icons/search.svg?react";
-import FilterIcon from "../../assets/icons/Filter.svg?react";
+import FilterIcon from "../../assets/icons/filter.svg?react";
 
 export const FilterBar = () => {
   return (
